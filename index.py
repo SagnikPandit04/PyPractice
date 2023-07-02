@@ -1,1 +1,1 @@
-result = input(what's your favourite fruit? )
+result = input('favourite fruit? ')
