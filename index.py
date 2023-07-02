@@ -1,3 +1,1 @@
-my_list = ['Apple', 'Oranges', 'Cherry']
-for elements in my_list:
-    print(elements)
+result = input(what's your favourite fruit? )
