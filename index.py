@@ -1,1 +1,3 @@
-result = input('favourite fruit? ')
+input('my file: ')
+input('my tuple: ')
+input('my dictionary: ')
