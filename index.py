@@ -1,3 +1,1 @@
-input('my file: ')
-input('my tuple: ')
-input('my dictionary: ')
+mylist = [num for num in range(0,9)]
