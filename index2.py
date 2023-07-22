@@ -8,5 +8,7 @@ elif question == 'orange':
     print(orange)
 elif question == 'banana':
     print(banana)
+elif question == 'pineapple':
+    print('pineapple is ok but you need to choose between apple or orange or banana')
 else:
-    print('you do not have favourite fruit')
+    print('if you do not want to choose it is ok')
