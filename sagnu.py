@@ -1,13 +1,15 @@
-def keyword():
-    question = int(input('what is your result?\n '))
-    if question >90<100:
-        print('exellent')
-    elif question >80<90:
-        print('more than enough')
-    elif question >70<80:
-        print('not bad')
+def main(a,b):
+    if a%2 == 0 and b%2 == 0:
+        if a > b:
+            result = a
+        else:
+            result = b
     else:
-        print('good but can be better')
+        if a<b:
+            result = a
+        else:
+            result = b
 
+    return result 
 
-    keyword()
+        
