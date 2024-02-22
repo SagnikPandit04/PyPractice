@@ -12,8 +12,12 @@
 
 #     return result 
 
-def main(a,b):
-    if a%2 == 0 and b%2 == 0:
-        return min(a,b)
-    else:
-        return max(a,b)
+# def main(a,b):
+#     if a%2 == 0 and b%2 == 0:
+#         return min(a,b)
+#     else:
+#         return max(a,b)
+def names(text):
+    word = text.split()
+
+    return word[0][0] == word[1][0]
